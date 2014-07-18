@@ -1,0 +1,46 @@
+h1 {
+  text-align: center;
+}
+
+#food-level {
+  background-color: blue;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: none;
+}
+
+#sleep-level {
+  background-color: purple;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: none;
+}
+
+
+#activity-level {
+  background-color: green;
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  border: none;
+}
+#food-amount{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+#sleep-amount{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+
+#activity-amount{
+  text-align: center;
+  font-size: 40px;
+  color: white;
+  }
+
