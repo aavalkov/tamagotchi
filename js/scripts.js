@@ -43,8 +43,20 @@ $(document).ready(function(){
         if(myTamagotchi.foodLevel === 0 && myTamagotchi.sleepLevel === 0 && myTamagotchi.activityLevel ===0){
           alert("You let " + inputtedName + " die! SAD DAY!");
           window.clearInterval(counter);
-       }
+        }
     },1000)
+
+    $("#food-level").click(function(){
+      myTamagotchi.foodLevel +=1;
+    });
+    $("#sleep-level").click(function(){
+      myTamagotchi.sleepLevel +=1;
+    });
+    $("#activity-level").click(function(){
+      myTamagotchi.activityLevel +=1;
+    });
+
+
 
     console.log(counter);
 
